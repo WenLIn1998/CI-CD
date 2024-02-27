@@ -1,0 +1,13 @@
+
+name: HelloWOrld
+on:
+ push:
+  branches:
+   - main
+jobs:
+ build:
+ runs-on: ubuntu-20.04
+steps:
+ - run echo "This is a build step"
+
+exit
